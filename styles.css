@@ -1,0 +1,128 @@
+/* Global styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  border-radius: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+#cameraWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#videoElement {
+  border-radius: 5px;
+  height: 590px;
+}
+
+.slider {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-size: 16px;
+}
+
+#captureButton,
+#resetButton {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  font-size: 18px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#captureButton:hover,
+#resetButton:hover {
+  background-color: #555;
+}
+.btn {
+  text-align: center;
+}
+
+/* Additional styles */
+.btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px;
+  margin-top: 5px;
+}
+
+.btn button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn button:focus {
+  outline: none;
+}
+/* Add this CSS to position the switch camera button */
+.switch-camera-button {
+  position: absolute;
+  top: 10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+  z-index: 1; /* Ensure the button is above the video */
+}
+
+
+#protanopeButton,
+#deutranopeButton {
+  background-color: yellow;
+  color: #333;
+}
+#cameraCaptureButton {
+  background-color: #ff0000;
+  color: #fff;
+  border-radius: 50%;
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn button:hover {
+  background-color: #f0f0f0;
+}

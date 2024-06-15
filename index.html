@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Adjuster</title>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="content">
+        <div id="cameraWrapper">
+            <video id="videoElement" autoplay></video>
+        </div>
+
+        <!-- protanope, switch camera, and deutranope buttons -->
+        <div class="btn">
+            <button id="protanopeButton">P</button>  
+            <button id="switchCameraButton"><i class="fas fa-sync"></i></button>
+            <button id="cameraCaptureButton"><i class="fas fa-camera"></i></button>
+            <button id="deutranopeButton">D</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
